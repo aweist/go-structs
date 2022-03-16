@@ -2,34 +2,12 @@
 
 package foo
 
-type S1 struct {
-	B1 string
-	B2 string
-	B3 string
-	B4 string
-	B5 string
+type Struct1 struct {
+	Field1 string
+	Field2 int
 }
 
-type S2 struct {
-	B1 string
-	B2 string
-	B3 string
-	B4 string
-	B5 string
-}
-
-type S3 struct {
-	B1 string
-	B2 string
-	B3 string
-	B4 string
-	B5 string
-}
-
-type S4 struct {
-	B1 string
-	B2 string
-	B3 string
-	B4 string
-	B5 string
+type Struct2 struct {
+	Field1 string
+	Field2 int
 }
