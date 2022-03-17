@@ -11,7 +11,7 @@ func TestFindStructsInFile(t *testing.T) {
 	filename := "test_dir/file1.go"
 	structs, err := FindStructsInFile(filename)
 	assert.NoError(t, err)
-	assert.Equal(t, 4, len(structs))
+	assert.Equal(t, 2, len(structs))
 }
 
 func TestFindStructs(t *testing.T) {
